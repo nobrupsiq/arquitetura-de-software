@@ -6088,6 +6088,423 @@ BOOKS = [
   },
 ];
 
+/* Curso em vídeo: Maratona Java Virado no Jiraya (DevDojo). Cada aula: [id do vídeo, duração, título]. */
+var CURSO_JAVA = {
+  title: "Curso de Java do zero ao avançado",
+  serie: "Maratona Java Virado no Jiraya",
+  autor: "William Suane · DevDojo",
+  list: "PL62G310vn6nFIsOCC0H-C2infYgwm8SWW",
+  modulos: [
+    {
+      t: "Introdução e ambiente",
+      nivel: "Do zero",
+      topico: "jvm",
+      aulas: [
+        ["VKjFuX91G5Q", "6:11", "Bem-vindo"],
+        ["ooCqalwSpuE", "7:10", "O que esperar do curso"],
+        ["JasmdiTyduI", "10:28", "Como Java Funciona"],
+        ["Tsyeybeh968", "9:45", "Fazendo o download da JDK 15"],
+        ["xzAESAp_soQ", "8:08", "Configurando variaveis de ambiente"],
+        ["E64JTsEyXCM", "11:21", "Executando compilação manualmente"],
+        ["uB5Qbm-RMyU", "6:10", "Download da IDE IntelliJ Community"],
+        ["ds3t9C2A50U", "11:00", "Conhecendo a IDE IntelliJ Community"],
+        ["TnnS-R--WKc", "8:06", "Organizando o código em pacotes"],
+        ["2rMT0qRyiYs", "7:56", "Comentários"],
+      ],
+    },
+    {
+      t: "Tipos primitivos e operadores",
+      nivel: "Do zero",
+      aulas: [
+        ["RRHGYyJTTpQ", "11:39", "Tipos primitivos pt 01 - convenções de variáveis"],
+        ["veDgI_zZ7uk", "12:48", "Tipos primitivos pt 02 - declaração e tamanho em memória"],
+        ["74hd4o7V328", "7:42", "Tipos primitivos pt 03 - casting"],
+        ["13VfcFXwsjw", "6:10", "Tipos primitivos pt 04 - Strings"],
+        ["Q0REhCVBvAg", "10:21", "Tipos primitivos pt 05 - Exercício"],
+        ["1Fsvlted69g", "7:41", "Operadores pt 01 - Aritiméticos"],
+        ["U390IaCtOUk", "8:49", "Operadores pt 02 - Relacionais"],
+        ["cT6sw-Pw4l0", "8:58", "Operadores pt 03 - Lógicos AND"],
+        ["ELcO4DN7lxw", "7:13", "Operadores pt 04 - Lógicos OR"],
+        ["EFrq1WxsL1k", "10:31", "Operadores pt 05 - Atribuição"],
+      ],
+    },
+    {
+      t: "Estruturas condicionais e de repetição",
+      nivel: "Do zero",
+      aulas: [
+        ["gk1_Pn8GZA4", "12:01", "Estruturas Condicionais pt 01 - IF"],
+        ["exxeNsgcg3c", "14:11", "Estruturas Condicionais pt 02 - ELSE IF"],
+        ["gU-qCpBC5jk", "10:42", "Estruturas Condicionais pt 03 - Operador ternário"],
+        ["Y3ODYE3npgo", "5:29", "Estruturas Condicionais pt 04 - Tabela Verdade e exercício"],
+        ["W-ng6Dqa-E4", "10:38", "Estruturas Condicionais pt 05 - Resolução do exercícios"],
+        ["AYMtqJSrQTU", "11:09", "Estruturas Condicionais pt 06 - Switch"],
+        ["GDAgMb9amow", "5:10", "Estruturas Condicionais pt 07 - Switch exercício"],
+        ["hEl67ZAU_Hg", "12:59", "Estruturas de Repetição pt 01 - Laços de repetição while, do while, for"],
+        ["nvFAe05Ok3g", "4:42", "Estruturas de Repetição pt 02 - Exercício for"],
+        ["bcv-cgpw7Ak", "6:04", "Estruturas de Repetição pt 03 - Break"],
+        ["RaEO2YsqFII", "7:09", "Estruturas de Repetição pt 04 - Exercício Break"],
+        ["f65R-lQ4NpY", "6:16", "Estruturas de Repetição pt 05 - Continue"],
+      ],
+    },
+    {
+      t: "Arrays",
+      nivel: "Do zero",
+      topico: "estruturas",
+      aulas: [
+        ["fvw4bmihZHA", "11:13", "Arrays pt 01"],
+        ["S8Eaq6uxnd8", "4:37", "Arrays pt 02"],
+        ["Vsn-CXzzpUc", "8:27", "Arrays pt 03"],
+        ["cl47iLWalUw", "9:19", "Arrays pt 04 - Foreach"],
+        ["EalQ6X_RtJk", "13:31", "Arrays Multidimensionais pt 01"],
+        ["TGq3754CsN4", "5:33", "Arrays Multidimensionais pt 02 - Foreach"],
+        ["vp8bQZomKLo", "10:43", "Arrays Multidimensionais pt 03 - Inicialização"],
+      ],
+    },
+    {
+      t: "Orientação a objetos: classes, métodos e construtores",
+      nivel: "Do zero",
+      topico: "poo",
+      aulas: [
+        ["EyuPFLuvD7Q", "19:14", "Introdução classes pt 01"],
+        ["uB7KvSz6WiA", "8:50", "Introdução classes pt 02"],
+        ["dJLYPP1ExYY", "8:51", "Coesão"],
+        ["JbL4SAFORco", "8:16", "Exercício Classes"],
+        ["g_SGuMYHgI0", "5:06", "Referência de objetos"],
+        ["ZM0AJhKjLYc", "9:05", "Métodos pt 01"],
+        ["op6inGTMBiw", "8:51", "Métodos pt 02 - Parâmetros"],
+        ["FCnTsy2EzSw", "8:58", "Métodos pt 03 - Retorno pt 01"],
+        ["d0BO5mBBFK8", "8:30", "Métodos pt 04 - Retorno pt 02"],
+        ["-izqpkaXKx0", "10:39", "Métodos pt 05 - Parâmetros tipo primitivo"],
+        ["C-tmxo4FcKs", "14:34", "Métodos pt 06 - Parâmetros tipo referência"],
+        ["OMuzOoHAEpg", "7:12", "Métodos pt 07 - Parâmetros tipo referência pt 02"],
+        ["0fVZlarZ-Lg", "8:21", "Métodos pt 08 - Referência this"],
+        ["T0E4Ewwz1IY", "8:49", "Métodos pt 09 - Varargs"],
+        ["F2Y867f1J8U", "17:37", "Métodos pt 10 - Exercise"],
+        ["QDzjgS0r39c", "17:01", "Modificador de acesso private, get e set pt 01"],
+        ["hJNlMh9ktQ4", "5:49", "Modificador de acesso private, get e set pt 02"],
+        ["kuvg8JixRp4", "6:58", "Modificador de acesso private, get e set pt 03"],
+        ["UNPh61FYFrA", "16:36", "Sobrecarga de métodos"],
+        ["zErSZzgYY_g", "10:58", "Construtores pt 01"],
+        ["rW11EAkxFnc", "8:35", "Construtores pt 02 - Sobrecarga"],
+        ["HGB02nLvgKU", "11:32", "Blocos de inicialização"],
+        ["WBBbsEdzzmA", "14:55", "Modificador static"],
+        ["jowlUssbJmk", "9:16", "Métodos estáticos"],
+        ["4YE1ewRK-rk", "8:39", "Bloco de inicialização estático"],
+      ],
+    },
+    {
+      t: "Orientação a objetos: associação, herança e enum",
+      nivel: "Do zero",
+      topico: "poo",
+      aulas: [
+        ["HOjV9M6pRQQ", "7:53", "Associação pt 01 - Arrays com Objetos"],
+        ["LFlZcO9qAh8", "7:51", "Associação pt 02 - Associação unidirecional um para muitos"],
+        ["idIGsMoxfO0", "7:25", "Associação pt 03 - Associação unidirecional muitos para um"],
+        ["-RtaqvKlH7w", "10:46", "Associação pt 04 - Associação bidirecional"],
+        ["9IX94bsa3io", "8:26", "Leitura de dados pelo console"],
+        ["pO1rQgpJlkg", "4:26", "Exercício leitura de dados do teclado"],
+        ["FYANhUfWTyI", "19:14", "Associação pt 05 - Exercício Associação"],
+        ["fOlsHNo1b0k", "14:47", "Herança pt 01"],
+        ["mgSz5XSH4dM", "8:02", "Herança pt 02 - Super"],
+        ["xoErKNbeG0w", "6:12", "Herança pt 03 - protected"],
+        ["64GcJDKN4mI", "11:57", "Herança pt 04 - Construtores"],
+        ["raAHfRdld0Y", "9:33", "Herança pt 05 - Sequência de inicialização"],
+        ["62qcGF6IVfc", "7:52", "Sobrescrita do método toString"],
+        ["EQhYKOBCozE", "8:57", "Modificador final pt 01 - Tipo primitivo"],
+        ["PqAZFtNsgn4", "6:37", "Modificador final pt 02 - Tipo referência"],
+        ["KWcqFc3X5Is", "5:50", "Modificador final pt 03 - Classes e métodos"],
+        ["3xzrprPwS2Q", "13:29", "Enumeração pt 01 - Introdução"],
+        ["gsQ1gZYh5Wo", "11:58", "Enumeração pt 02 - Construtores e atributos"],
+        ["8Vwf5vgMoDY", "7:53", "Enumeração pt 03 - Sobrescrita de métodos"],
+        ["rbqIXJwy6-M", "5:43", "Enumeração pt 04 - Busca por atributos"],
+      ],
+    },
+    {
+      t: "Orientação a objetos: abstração, interfaces e polimorfismo",
+      nivel: "Do zero",
+      topico: "poo",
+      aulas: [
+        ["ws1NVBGeegs", "9:00", "Classes abstratas pt 01"],
+        ["j97OEyzBcKI", "8:15", "Classes abstratas pt 02 - Métodos abstratos"],
+        ["xI0xspht6mA", "5:18", "Classes abstratas pt 03 - Métodos abstratos regras"],
+        ["AhVd_DzV3DU", "7:29", "Interfaces pt 01 - Introdução"],
+        ["QKjFkaagGdk", "8:31", "Interfaces pt 02 - Implementando múltiplas interfaces"],
+        ["SYyEyR78dSQ", "6:22", "Interfaces pt 03 - Atributos e métodos estáticos"],
+        ["UmReA29kOVw", "15:35", "Polimorfismo pt 01 - Introdução"],
+        ["TZt_LYjKLiQ", "11:34", "Polimorfismo pt 02 - Funcionamento"],
+        ["1kKS1XV8saE", "7:57", "Polimorfismo pt 03 - Parâmetros polimórficos"],
+        ["qpefWJeupV0", "9:25", "Polimorfismo pt 04 - Cast e instanceof"],
+        ["lDsO78xFp9Y", "8:24", "Polimorfismo pt 05 - Programação orientada a interface"],
+      ],
+    },
+    {
+      t: "Exceções",
+      nivel: "Intermediário",
+      aulas: [
+        ["30D9z8M3eCQ", "9:46", "Exceções pt 01 - Errors"],
+        ["S7gLPZO0Jug", "8:57", "Exceções pt 02 - RuntimeException"],
+        ["iNlGgh0s_F8", "18:00", "Exceções pt 03 - Exception"],
+        ["M7CU5TOOmTc", "13:32", "Exceções pt 04 - Lançando exceção unchecked"],
+        ["Gc5SIWgcsYI", "12:45", "Exceções pt 05 - Lançando exceção checked"],
+        ["QL1Wz5yrlEw", "10:29", "Exceções pt 06 - Bloco Finally"],
+        ["ibrTQmTNHQ0", "10:01", "Exceções pt 07 - Capturando múltiplas exceções"],
+        ["0_54_91TDuk", "7:04", "Exceções pt 08 - Multi catch em linha"],
+        ["PERQlV7ax2M", "10:39", "Exceções pt 09 - Try with resources"],
+        ["3P8imoW60Uo", "6:34", "Exceções pt 10 - Exceção customizada"],
+        ["Jf1tZisCx7U", "6:19", "Exceções pt 11 - Exceção e regras de sobrescrita"],
+      ],
+    },
+    {
+      t: "Classes utilitárias: wrappers, Strings e datas",
+      nivel: "Intermediário",
+      topico: "java-moderno",
+      aulas: [
+        ["F0F0B33Un9M", "11:06", "Wrappers pt 01"],
+        ["cAqsHzWy2qI", "9:53", "Wrappers pt 02"],
+        ["vH7izlkNewI", "12:54", "Strings pt 01"],
+        ["5hfftQx_S8Q", "10:16", "Strings pt 02"],
+        ["yx8OJVgVSU8", "12:51", "Strings pt 03 - Desempenho"],
+        ["JAKcK93hHHU", "9:31", "Strings pt 04 - StringBuilder"],
+        ["IUDT-cW4tcU", "7:09", "Date"],
+        ["H92wS2QKLO8", "8:57", "Calendar"],
+        ["vmhzhQo_s08", "5:17", "DateFormat"],
+        ["zejLPQW96uI", "11:54", "Internacionalização Datas com Locale"],
+        ["xaaGxC-G92w", "8:41", "Internacionalização Números com Locale"],
+        ["waedzSaWMjo", "9:00", "Internacionalização de moeda com Locale"],
+        ["swKXov2xHFM", "6:51", "SimpleDateFormat"],
+        ["S7Uc4TxTbb8", "11:52", "LocalDate"],
+        ["huyHYTds_xU", "5:00", "LocalTime"],
+        ["UXpoRzHOMP4", "6:47", "LocalDateTime"],
+        ["mcv5zRtDGag", "8:15", "Instant"],
+        ["4vg2lEGYJi4", "8:15", "Duration"],
+        ["g9GtolzNlPo", "6:18", "Period"],
+        ["YuwLrTwLI88", "5:54", "ChronoUnit"],
+        ["81xG_vGIiwg", "7:31", "TemporalAdjusters"],
+        ["qL2V3ks3knc", "9:49", "TemporalAdjuster"],
+        ["75nO4WZVjq0", "13:04", "ZonedDateTime, ZoneId, OffsetDateTime"],
+        ["TyikH6iBUIY", "11:08", "DateTimeFormatter"],
+        ["M28gEhYT--o", "13:08", "ResourceBundle"],
+      ],
+    },
+    {
+      t: "Regex, Scanner, IO, NIO e serialização",
+      nivel: "Intermediário",
+      aulas: [
+        ["8hhYE4y0iMM", "10:55", "Regex pt 01 - Pattern e Matcher"],
+        ["LvLGE9ryafg", "7:17", "Regex pt 02 - Pattern e Matcher - Meta caracteres"],
+        ["v_ZsEZLHKjk", "9:15", "Regex pt 03 - Pattern e Matcher - Range"],
+        ["9IFY_aHlDl0", "7:33", "Regex pt 04 - Pattern e Matcher - Quantificadores pt 01"],
+        ["0PQ45dMLcFo", "13:17", "Regex pt 05 - Pattern e Matcher - Quantificadores pt 02"],
+        ["j6aDHj9S-vs", "4:03", "Regex pt 06 - Pattern e Matcher - Anchor"],
+        ["Dx5bqoNAW6I", "6:58", "Scanner - Tokens e Delimitadores"],
+        ["iBIKREgyF20", "8:52", "IO pt 01 - File"],
+        ["4wsysT3OxO4", "7:17", "IO pt 02 - FileWriter"],
+        ["9Y8FKrklbMQ", "6:57", "IO pt 03 - FileReader"],
+        ["j7cWU9PM7wc", "7:16", "IO pt 04 - BufferedWriter"],
+        ["Z-EG0cRvVBQ", "5:16", "IO pt 05 - BufferedReader"],
+        ["z30kOkeTM5c", "11:14", "IO pt 06 - File para diretórios"],
+        ["PHj0E70bSeg", "7:55", "NIO pt 01 - Path, Paths, Files pt 01"],
+        ["0Cw4YlsqIqU", "11:39", "NIO pt 02 - Path, Paths, Files pt 02"],
+        ["k6yQvu42sq0", "13:07", "NIO pt 03 - Normalização"],
+        ["hNGyzCwLe1g", "9:46", "NIO pt 04 - Resolvendo Paths"],
+        ["mbx83oInlGI", "8:06", "NIO pt 05 - Relativize"],
+        ["7ccX4cxlWOg", "8:10", "NIO pt 06 - BasicFileAttributes pt 01"],
+        ["3dnfUSbp6-4", "11:57", "NIO pt 07 - BasicFileAttributes pt 02"],
+        ["4g7JeY-hTP0", "7:36", "NIO pt 08 - DosFileAttribute"],
+        ["t8eoFrsMbNc", "8:44", "NIO pt 09 - PosixFileAttributes"],
+        ["UHDnO2r4Whc", "7:21", "NIO pt 10 - DirectoryStream"],
+        ["1-fBnhNcbmY", "7:38", "NIO pt 11 - SimpleFileVisitor pt 01"],
+        ["UiDMz5J-mlg", "8:26", "NIO pt 12 - SimpleFileVisitor pt 02"],
+        ["m5jwgf8FEl0", "7:37", "NIO pt 13 - PathMatcher pt 01"],
+        ["duwXpnrt4D8", "5:54", "NIO pt 14 - PathMatcher pt 02"],
+        ["DuYqgRU--CI", "11:06", "NIO pt 15 - ZipOutputStream"],
+        ["9Bkbcn7Dgvc", "13:36", "Serialization pt 01"],
+        ["8NA5-GjqKEc", "15:10", "Serialization pt 02"],
+      ],
+    },
+    {
+      t: "Coleções",
+      nivel: "Intermediário",
+      topico: "estruturas",
+      aulas: [
+        ["YWtGWgTlPwQ", "9:43", "Coleções pt 01 - equals pt 01"],
+        ["2t9GDdsVmjg", "10:18", "Coleções pt 02 - equals pt 02"],
+        ["Q4fgk7i0GG4", "6:28", "Coleções pt 03 - hashCode pt 01"],
+        ["_FnTxETp3BI", "7:42", "Coleções pt 04 - hashCode pt 02"],
+        ["NxuGmdGBDdk", "8:26", "Coleções pt 05 - Complexidade Big-O"],
+        ["PFuvDDS9_J8", "10:57", "Coleções pt 06 - List pt 01"],
+        ["_auUwu21Qqw", "9:26", "Coleções pt 07 - List pt 02"],
+        ["fzv-UxjYcmU", "11:09", "Coleções pt 08 - List pt 03"],
+        ["WHFr-FzwJGQ", "12:38", "Coleções pt 09 - Sorting lists pt 01"],
+        ["OJGQ0lvaKGE", "13:58", "Coleções pt 10 - Sorting lists pt 02 - Comparable"],
+        ["ZyI_8ljieUA", "7:28", "Coleções pt 11 - Sorting lists pt 03 - Comparator"],
+        ["Ixd1Fib9F9g", "11:57", "Coleções pt 12 - Binary Search"],
+        ["meW6F-95yIw", "9:32", "Coleções pt 13 - Conversão de Lista para Arrays e vice versa"],
+        ["FlwOWSpYUkA", "8:39", "Coleções pt 14 - Iterator"],
+        ["dJ3fhRq-5tM", "6:34", "Coleções pt 15 - Set, HashSet"],
+        ["JibYosgdk00", "9:41", "Coleções pt 16 - NavigableSet, TreeSet pt 01"],
+        ["8A6W5g9Q3nA", "9:50", "Coleções pt 17 - NavigableSet, TreeSet pt 02"],
+        ["kkHyYrfB35s", "10:24", "Coleções pt 18 - Map, HashMap, LinkedHashMap pt 01"],
+        ["4jLo3TpiS4k", "8:27", "Coleções pt 19 - Map, HashMap, LinkedHashMap pt 02"],
+        ["IvjlvMrwZiI", "7:05", "Coleções pt 20 - Map, HashMap, LinkedHashMap pt 03"],
+        ["2EKe7UJLuCQ", "8:07", "Coleções pt 21 - NavigableMap, TreeMap"],
+        ["Q6CiTfKsAQc", "12:37", "Coleções pt 22 - Queue, PriorityQueue"],
+      ],
+    },
+    {
+      t: "Generics e classes internas",
+      nivel: "Intermediário",
+      aulas: [
+        ["YOHMTPIxRDk", "8:34", "Generics pt 01 - Introdução"],
+        ["NfguvWHYbQM", "11:12", "Generics pt 02 - Wildcard pt 01"],
+        ["rchsi7CvUBM", "7:15", "Generics pt 03 - Wildcard pt 02"],
+        ["ZWhEZ-7PXg8", "12:46", "Generics pt 04 - Classes Genéricas pt 01"],
+        ["BjipceG4EH0", "9:31", "Generics pt 05 - Classes Genéricas pt 02"],
+        ["_feJhRzYxYk", "8:11", "Generics pt 06 - Métodos Genéricos"],
+        ["pAZ_4lxDYNU", "9:36", "Classes Internas pt 01 - Introdução"],
+        ["koKwh7YVtx0", "9:12", "Classes Internas pt 02 - Classes Locais"],
+        ["44uSWELqd3U", "12:41", "Classes Internas pt 03 - Classes Anônimas"],
+        ["jm09LQDoZ5Y", "6:17", "Classes Internas pt 04 - Classes aninhadas estáticas"],
+      ],
+    },
+    {
+      t: "Lambdas, method reference e Optional",
+      nivel: "Avançado",
+      topico: "java-moderno",
+      aulas: [
+        ["ZmsJPFhmmf0", "12:15", "Parametrizando comportamentos pt 01"],
+        ["pSSgo8RAf-A", "12:37", "Parametrizando comportamentos pt 02"],
+        ["sF6z6PTqTVo", "9:04", "Lambdas pt 01 - Predicate"],
+        ["T5mFXrYBsao", "5:19", "Lambdas pt 02 - Consumer"],
+        ["2P6LbYqmz7c", "6:13", "Lambdas pt 03 - Function"],
+        ["f7jGNzFMQb4", "12:34", "Method Reference pt 01 - Referência a métodos estáticos"],
+        ["E2Ev36YbjDo", "10:33", "Method Reference pt 02 - Referência a métodos não estáticos"],
+        ["2dUHGheKl9s", "7:48", "Method Reference pt 03 - Referência a construtor"],
+        ["-xxb8LoOiRs", "11:46", "Optional pt 01"],
+        ["sOeNRIwhyzg", "15:36", "Optional pt 02"],
+      ],
+    },
+    {
+      t: "Streams",
+      nivel: "Avançado",
+      topico: "java-moderno",
+      aulas: [
+        ["ID9zo1hSbXw", "11:16", "Streams pt 01 - Introduction pt 01"],
+        ["pPjQbbl4iiY", "7:51", "Streams pt 02 - Introduction pt 02"],
+        ["ctozCHV5EZY", "7:37", "Streams pt 03 - Introduction pt 03"],
+        ["3IyvpB7Ocxw", "7:23", "Streams pt 04 - FlatMap pt 01"],
+        ["wCEEhV4Hkio", "6:46", "Streams pt 05 - FlatMap pt 02"],
+        ["8KiVd58GBJU", "9:34", "Streams pt 06 - Finding and Matching"],
+        ["wTsGajhPCBY", "7:47", "Streams pt 07 - Reduce pt 01"],
+        ["-eudNNKAGgM", "6:33", "Streams pt 08 - Reduce pt 02"],
+        ["3Ud0CDMdwiY", "10:24", "Streams pt 09 - Gerando streams pt 01"],
+        ["AQO2JlZcwaA", "9:50", "Streams pt 10 - Gerando streams pt 02"],
+        ["5wDiTtBayU4", "10:26", "Streams pt 11 - Collectors pt 01 Summarizing"],
+        ["EH74dqRDCM0", "7:18", "Streams pt 12 - Collectors pt 02 - Grouping by pt 01"],
+        ["rO6o654D5hQ", "9:42", "Streams pt 13 - Collectors pt 03 - Grouping by pt 02"],
+        ["1FvYGWxmltw", "8:21", "Streams pt 14 - Collectors pt 04 - Grouping by pt 03"],
+        ["_lhipah8Anw", "9:47", "Streams pt 15 - Collectors pt 05 - Grouping by pt 04"],
+        ["n_8HNFLrMsc", "13:20", "Streams pt 16 - Parallel Streams pt 01"],
+        ["ZnkpA5rUq6I", "9:50", "Streams pt 17 - Parallel Streams pt 02"],
+      ],
+    },
+    {
+      t: "Threads e concorrência",
+      nivel: "Avançado",
+      topico: "concorrencia",
+      aulas: [
+        ["dFPwCqr43Ag", "12:44", "Threads pt 01 - Introduction"],
+        ["xyU1c0iJGr8", "5:37", "Threads pt 02 - Estados das threads"],
+        ["1TSH83Clt18", "6:53", "Threads pt 03 - Prioridade e Sleep"],
+        ["BLM9Q9zdARU", "11:18", "Threads pt 04 - Yield e Join"],
+        ["WKx6tEM8LEU", "14:32", "Threads pt 05 - Sincronismo de thread pt 01"],
+        ["LVIZJWoHnjs", "8:51", "Threads pt 06 - Sincronismo de thread pt 02"],
+        ["WN2bb0RsMyM", "7:44", "Threads pt 07 - Sincronismo de thread pt 03 - Classes thread safe"],
+        ["Pm0EfS0Lu4M", "7:17", "Threads pt 08 - Sincronismo de thread pt 04 - Deadlock"],
+        ["A4zRkIydFjE", "21:23", "Threads pt 09 - Sincronismo de thread pt 05 - Wait, notify e notifyAll"],
+        ["eafDSpZMBbE", "8:23", "Concorrência pt 01 - AtomicInteger"],
+        ["4yw1WJUIrwg", "13:52", "Concorrência pt 02 - Lock and ReentrantLock"],
+        ["8Gxw4WzYx-w", "13:21", "Concorrência pt 03 - Conditions"],
+        ["hsnTg0Y5Iuw", "11:00", "Concorrência pt 04 - ReentrantReadWriteLock"],
+        ["6rCcB4EVkm4", "8:30", "Concorrência pt 05 - CopyOnWriteArrayList"],
+        ["MkZjut9L6W8", "6:55", "Concorrência pt 06 - ArrayBlockingQueue"],
+        ["gZwUdhZBARo", "9:15", "Concorrência pt 07 - LinkedTransferQueue"],
+        ["y7PUfmtWIXs", "11:57", "Concorrência pt 08 - Executors pt 01 - Thread Pools"],
+        ["oxwUqSAbMLY", "14:22", "Concorrência pt 09 - Executors pt 02 - ScheduledExecutorService"],
+        ["ct9KQy16pVE", "8:15", "Concorrência pt 10 - Executors pt 03 - Interface Callable"],
+        ["NzXEuBgTHKE", "11:07", "Concorrência pt 11 - Executors pt 04 - Future"],
+        ["ZKDgjM_x4bo", "17:25", "Concorrência pt 12 - CompletableFuture pt 01 - get and join"],
+        ["iPQNgSnj41o", "6:45", "Concorrência pt 13 - CompletableFuture pt 02 - Streams"],
+        ["o7x9PmwKxv0", "7:13", "Concorrência pt 14 - CompletableFuture pt 03 - ThreadFactory"],
+        ["Id9RyqFuRiM", "18:36", "Concorrência pt 15 - CompletableFuture pt 04 - Encadeando chamadas pt 01"],
+        ["W2j3KzVgiAs", "13:05", "Concorrência pt 16 - CompletableFuture pt 05 - Encadeando chamadas pt 02"],
+        ["BdOD7-unrRM", "9:12", "Concorrência pt 17 - CompletableFuture pt 06 - allOf, anyOf"],
+      ],
+    },
+    {
+      t: "Padrões de projeto",
+      nivel: "Avançado",
+      topico: "patterns",
+      aulas: [
+        ["UL-FdBvthHU", "13:46", "Padrões de Projeto pt 01 - Builder"],
+        ["k3BbX3Ysd5o", "6:45", "Padrões de Projeto pt 02 - Factory"],
+        ["p4e2YMW3H6k", "10:44", "Padrões de Projeto pt 03 - Singleton pt 01 - Eager Initialization"],
+        ["9OvzSW1hAY0", "6:51", "Padrões de Projeto pt 04 - Singleton pt 02 - Lazy Initialization"],
+        ["eutGuy74Ccg", "4:46", "Padrões de Projeto pt 05 - Singleton pt 03 - Singleton with enumeration"],
+        ["DVtkSOD86Ag", "7:24", "Padrões de Projeto pt 06 - Data Transfer Object"],
+      ],
+    },
+    {
+      t: "JDBC com MySQL e Docker",
+      nivel: "Avançado",
+      topico: "sql",
+      aulas: [
+        ["Q4UgGZfTgCs", "8:59", "JDBC pt 01 - Instalando Docker"],
+        ["VUbrBmiKkeQ", "13:42", "JDBC pt 02 - Criando container MySQL"],
+        ["NO8zP0Xyl8Q", "12:35", "JDBC pt 03 - Instalando Workbench, criando schema e tabelas"],
+        ["1MPs67lkmuA", "14:16", "JDBC pt 04 - Instalando e adicionando maven ao projeto"],
+        ["JatWzzOSGwg", "9:59", "JDBC pt 05 - Adicionando dependência e conectando com banco"],
+        ["-1Ctzcf3bFQ", "13:39", "JDBC pt 06 - Inserindo dados com Statement"],
+        ["Dpe6f7JpVIk", "19:02", "JDBC pt 07 - Lombok e Log4J2"],
+        ["jO0dAZ2CnJY", "11:54", "JDBC pt 08 - Deletando dados com Statement"],
+        ["e_qj9ee4cv0", "8:11", "JDBC pt 09 - Atualizando dados com Statement"],
+        ["SA88IvP6Wr8", "11:08", "JDBC pt 10 - Buscando dados com ResultSet pt 01 - findAll"],
+        ["kAsRdPNp1-E", "7:01", "JDBC pt 11 - Buscando dados com ResultSet pt 02 - findByName"],
+        ["l0bMybn4trY", "9:12", "JDBC pt 12 - ResultSetMetaData"],
+        ["uaaseJJIhes", "8:28", "JDBC pt 13 - DatabaseMetaData"],
+        ["0M4RboYfjP4", "12:09", "JDBC pt 14 - ResultSet TYPE SCROLL INSENSITIVE"],
+        ["TIunWd7vVX8", "6:56", "JDBC pt 15 - Atualizando registros com ResultSet"],
+        ["xeAYUaI3fbU", "11:34", "JDBC pt 16 - Inserindo e deletando registros com ResultSet"],
+        ["uQ2cESUncjM", "14:57", "JDBC pt 17 - PreparedStatement pt 01"],
+        ["8gbs3yGJtE8", "5:43", "JDBC pt 18 - PreparedStatement pt 02"],
+        ["PRXFwv9p4qI", "9:20", "JDBC pt 19 - CallableStatement"],
+        ["wWLEz5wlpiE", "9:55", "JDBC pt 20 - Connected RowSet - JdbcRowSet pt 01"],
+        ["tvQcULQvYag", "11:29", "JDBC pt 21 - Connected RowSet - JdbcRowSet pt 02"],
+        ["Fau61I3F5CY", "11:29", "JDBC pt 22 - Disconnected RowSet - CachedRowSet"],
+        ["ivueCjdK6C0", "13:55", "JDBC pt 23 - Transação"],
+        ["pBgOitdJbgY", "18:32", "JDBC pt 24 - CRUD pt 01 - findByName and findAll"],
+        ["b-eWIeQ9PnQ", "11:02", "JDBC pt 25 - CRUD pt 02 - delete"],
+        ["AlefsI8CiqY", "10:49", "JDBC pt 26 - CRUD pt 03 - save"],
+        ["0_-P83Uv_pA", "13:36", "JDBC pt 27 - CRUD pt 04 - update"],
+        ["sehuZWtXo-M", "25:25", "JDBC pt 28 - CRUD pt 05 - Anime Crud"],
+      ],
+    },
+    {
+      t: "Testes com JUnit e Java moderno",
+      nivel: "Avançado",
+      topico: "testes",
+      aulas: [
+        ["jdBsFPF_w9Q", "15:13", "Testes unitários com jUnit pt 01"],
+        ["N5iaGF90XGg", "18:19", "Testes unitários com jUnit pt 02"],
+        ["K0NNErTM1QU", "6:09", "Atualizando JDK"],
+        ["mAioJY5_hFk", "13:11", "Record Class"],
+        ["KYN9UfPpJ38", "7:09", "Pattern Matching for instanceof"],
+        ["ti-Yb11y_m8", "3:04", "É só correr pro abraço"],
+      ],
+    },
+  ],
+};
+
 /* Katas de refatoração ficam no tópico próprio de refactoring */
 (function () {
   const t = TOPICS.find((x) => x.id === "clean-code");
@@ -6098,7 +6515,7 @@ BOOKS = [
 (function () {
   const LV = { 1: "Aquecimento", 2: "Prática", 3: "Desafio" };
   const KEY = "trilha-arquiteto-v1";
-  let state = { done: {}, ex: {} };
+  let state = { done: {}, ex: {}, aulas: {} };
   try {
     const s = JSON.parse(localStorage.getItem(KEY) || "null");
     if (s) state = Object.assign(state, s);
@@ -6213,6 +6630,7 @@ BOOKS = [
       <div><b>~${horas}h</b><span>de estudo focado</span></div>
     </div>
     <a class="cta" href="#${prox.id}">${state.done[TOPICS[0].id] ? "Continuar" : "Começar"}: ${esc(prox.title)} →</a>
+    <a class="cta-2" href="#curso">Começando do zero em Java? Veja o curso em vídeo (${AULAS.length} aulas) →</a>
     <p class="note"><b>Fiel ao seu quadro:</b> etapas, marcos, ordem e nomes vêm do "Mapa do Arquiteto: ROADMAP" no Miro. Itens que o mapa só cita (como os frameworks MVC ou os bancos) foram resolvidos para Java, Spring Boot e PostgreSQL. A última etapa, "Fora da curva", é um extra além do mapa.</p>
   </section>
 
@@ -6261,6 +6679,11 @@ BOOKS = [
   <h2 class="t-title">${esc(t.title)}</h2>
   <div class="meta"><span class="tag lv">${esc(t.level)}</span><span class="tag">~${t.hours}h</span><span class="tag">${t.exercises.length} exercícios</span><span class="tag">${t.refs.length} referências</span></div>
   <p class="summary">${esc(t.summary)}</p>
+  ${
+    ph.id === "p-ling"
+      ? `<div class="callout"><b>Aprendendo Java do zero?</b>Acompanhe esta fase com o <a href="#curso">curso em vídeo</a>: ${AULAS.length} aulas, do primeiro programa até concorrência, JDBC e testes.</div>`
+      : ""
+  }
   <div class="prose">${body}</div>
 
   ${
@@ -6309,6 +6732,71 @@ BOOKS = [
   }).join("")}</div>`;
   }
 
+  /* ---------- curso em vídeo ---------- */
+  const AULAS = CURSO_JAVA.modulos.flatMap((m, mi) =>
+    m.aulas.map(([id, dur, t]) => ({ id, dur, t, mi })),
+  );
+  AULAS.forEach((a, i) => (a.n = i));
+  const segs = (d) => d.split(":").reduce((a, x) => a * 60 + +x, 0);
+  const fmtHoras = (s) => {
+    const h = Math.floor(s / 3600),
+      m = Math.round((s % 3600) / 60);
+    return h ? `${h}h${m ? String(m).padStart(2, "0") : ""}` : `${m}min`;
+  };
+  const urlAula = (a) =>
+    `https://www.youtube.com/watch?v=${a.id}&list=${CURSO_JAVA.list}&index=${a.n + 1}`;
+  const feitasDe = (as) => as.filter((a) => state.aulas[a.id]).length;
+
+  function cursoProgHtml() {
+    const f = feitasDe(AULAS),
+      pct = Math.round((100 * f) / AULAS.length);
+    return `<div class="prog-bar"><i style="width:${pct}%"></i></div>
+    <small><span>${f} de ${AULAS.length} aulas assistidas</span><span>${pct}%</span></small>`;
+  }
+
+  function curso() {
+    const total = AULAS.reduce((a, x) => a + segs(x.dur), 0);
+    const prox = AULAS.find((a) => !state.aulas[a.id]);
+    const niveis = [...new Set(CURSO_JAVA.modulos.map((m) => m.nivel))];
+    return `<div class="crumb"><a href="#inicio">Trilha</a><span>/</span><span>Curso em vídeo</span></div>
+  <h2 class="t-title">${esc(CURSO_JAVA.title)}</h2>
+  <div class="meta"><span class="tag lv">${AULAS.length} aulas</span><span class="tag">~${fmtHoras(total)} de vídeo</span><span class="tag">${CURSO_JAVA.modulos.length} módulos</span></div>
+  <p class="summary">A ${esc(CURSO_JAVA.serie)}, de ${esc(CURSO_JAVA.autor)}, na ordem da playlist e dividida em módulos. Cada módulo aponta para o tópico da trilha que aprofunda o assunto. Marque as aulas assistidas; o progresso fica salvo neste navegador.</p>
+  <div class="prog curso-prog" id="cursoProg">${cursoProgHtml()}</div>
+  ${
+    prox
+      ? `<a class="cta" href="${esc(urlAula(prox))}" target="_blank" rel="noopener">${feitasDe(AULAS) ? "Continuar" : "Começar"}: aula ${String(prox.n).padStart(2, "0")} · ${esc(prox.t)} →</a>`
+      : `<p class="note"><b>Curso concluído.</b> Siga para o tópico <a href="#java-moderno">Java 25: a linguagem moderna</a>.</p>`
+  }
+  <div class="callout"><b>Sobre a versão do Java</b>O curso foi gravado com o JDK 15 e a IntelliJ Community. Instale a LTS atual (Java 25): tudo o que é ensinado continua valendo. O que veio depois, como sealed types, pattern matching no switch e virtual threads, está no tópico <a href="#java-moderno">Java 25: a linguagem moderna</a>.</div>
+  ${niveis
+    .map(
+      (nv) => `<h3 class="sec-h">${esc(nv)}</h3>
+  <div class="mods">${CURSO_JAVA.modulos
+    .map((m, mi) => ({ m, mi }))
+    .filter(({ m }) => m.nivel === nv)
+    .map(({ m, mi }) => {
+      const as = AULAS.filter((a) => a.mi === mi);
+      const dur = as.reduce((a, x) => a + segs(x.dur), 0);
+      const f = feitasDe(as);
+      const tp = m.topico && TOPICS.find((t) => t.id === m.topico);
+      return `<details class="mod${f === as.length ? " ok" : ""}"${prox && prox.mi === mi ? " open" : ""} data-mi="${mi}">
+      <summary><span class="num">${String(mi + 1).padStart(2, "0")}</span><b>${esc(m.t)}</b><span class="mc">${f}/${as.length} · ${fmtHoras(dur)}</span></summary>
+      ${tp ? `<p class="mod-link">Na trilha: <a href="#${tp.id}">${esc(tp.title)}</a></p>` : ""}
+      <ol class="aulas">${as
+        .map((a) => {
+          const on = !!state.aulas[a.id];
+          return `<li class="${on ? "done" : ""}"><input type="checkbox" id="aula-${a.id}" data-aula="${a.id}" ${on ? "checked" : ""} aria-label="Marcar aula ${a.n} como assistida">
+        <span class="an">${String(a.n).padStart(2, "0")}</span><a href="${esc(urlAula(a))}" target="_blank" rel="noopener">${esc(a.t)}</a><span class="ad">${esc(a.dur)}</span></li>`;
+        })
+        .join("")}</ol>
+    </details>`;
+    })
+    .join("")}</div>`,
+    )
+    .join("")}`;
+  }
+
   /* ---------- roteamento ---------- */
   let current = null;
   function route() {
@@ -6327,12 +6815,18 @@ BOOKS = [
       v.innerHTML = biblioteca();
       current = null;
       $("#topTitle").textContent = "Biblioteca essencial";
+    } else if (h === "curso") {
+      v.innerHTML = curso();
+      current = null;
+      $("#topTitle").textContent = "Curso de Java";
     } else {
       v.innerHTML = home();
       current = null;
       $("#topTitle").textContent = "Trilha do Arquiteto Java";
     }
-    renderNav(t ? t.id : ["projeto", "biblioteca"].includes(h) ? h : "inicio");
+    renderNav(
+      t ? t.id : ["projeto", "biblioteca", "curso"].includes(h) ? h : "inicio",
+    );
     if (window.hljs)
       v.querySelectorAll("pre code").forEach((el) => {
         try {
@@ -6380,6 +6874,20 @@ BOOKS = [
     btn.textContent = "selecionado";
   }
   document.addEventListener("change", (e) => {
+    const aula = e.target.dataset && e.target.dataset.aula;
+    if (aula) {
+      state.aulas[aula] = e.target.checked;
+      save();
+      e.target.closest("li").classList.toggle("done", e.target.checked);
+      const mod = e.target.closest(".mod"),
+        as = AULAS.filter((a) => a.mi === +mod.dataset.mi),
+        f = feitasDe(as);
+      mod.classList.toggle("ok", f === as.length);
+      const mc = mod.querySelector(".mc");
+      mc.textContent = mc.textContent.replace(/^\d+/, f);
+      $("#cursoProg").innerHTML = cursoProgHtml();
+      return;
+    }
     const id = e.target.dataset && e.target.dataset.ex;
     if (!id) return;
     state.ex[id] = e.target.checked;
