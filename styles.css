@@ -185,6 +185,26 @@ aside {
   border-right: 1px solid var(--line);
   padding: 22px 18px 40px max(18px, env(safe-area-inset-left, 0px));
 }
+aside .btn-tema {
+  float: right;
+  margin-left: 8px;
+}
+.btn-tema {
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--ink);
+  border-radius: 8px;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+}
+@media (max-width: 920px) {
+  aside .btn-tema {
+    display: none;
+  }
+}
 .brand {
   display: block;
   text-decoration: none;

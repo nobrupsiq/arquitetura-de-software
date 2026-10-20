@@ -6109,6 +6109,25 @@ BOOKS = [
     } catch (e) {}
   }
 
+  const root = document.documentElement;
+  function paintTheme() {
+    const dark = root.dataset.theme === "dark";
+    document.querySelectorAll("[data-theme-toggle]").forEach((b) => {
+      b.textContent = dark ? "☀" : "☾";
+      b.title = dark ? "Usar tema claro" : "Usar tema escuro";
+    });
+  }
+  document.querySelectorAll("[data-theme-toggle]").forEach((b) =>
+    b.addEventListener("click", () => {
+      root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
+      try {
+        localStorage.setItem("trilha-tema", root.dataset.theme);
+      } catch (e) {}
+      paintTheme();
+    }),
+  );
+  paintTheme();
+
   const $ = (s) => document.querySelector(s);
   const esc = (s) =>
     String(s).replace(
