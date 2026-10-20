@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>Trilha do Arquiteto Java</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <button
+        class="btn-trilha"
+        id="openNav"
+        aria-controls="side"
+        aria-expanded="false"
+      >
+        ☰ Trilha</button
+      ><b id="topTitle">Trilha do Arquiteto Java</b>
+    </div>
+    <div class="scrim" id="scrim"></div>
+    <div class="app">
+      <aside id="side" aria-label="Trilha de estudos">
+        <a class="brand" href="#inicio"
+          ><div class="k">Mapa do Arquiteto · Java</div>
+          <h1>Trilha do Arquiteto</h1></a
+        >
+        <div class="prog">
+          <div class="prog-bar"><i id="progFill"></i></div>
+          <small
+            ><span id="progTxt">0 de 0 tópicos</span
+            ><span id="progPct">0%</span></small
+          >
+        </div>
+        <nav class="navx">
+          <a href="#inicio" data-v="inicio"
+            ><span class="dot"></span>Visão geral</a
+          >
+          <a href="#projeto" data-v="projeto"
+            ><span class="dot"></span>Projeto final</a
+          >
+          <a href="#biblioteca" data-v="biblioteca"
+            ><span class="dot"></span>Biblioteca essencial</a
+          >
+        </nav>
+        <div id="phaseNav"></div>
+      </aside>
+      <main><div class="col" id="view"></div></main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/dockerfile.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
