@@ -465,108 +465,109 @@ main {
   font-size: 15px;
 }
 
-/* curso em vídeo */
-.curso-prog {
-  max-width: 520px;
-}
-.mods {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.mod {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 10px;
-}
-.mod summary {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  padding: 12px 14px;
-  cursor: pointer;
-  font-family: var(--display);
-  list-style: none;
-}
-.mod summary::-webkit-details-marker {
-  display: none;
-}
-.mod summary::after {
-  content: "+";
-  font-family: var(--mono);
-  color: var(--muted);
-}
-.mod[open] summary::after {
-  content: "−";
-}
-.mod summary .num {
-  font-family: var(--mono);
-  font-size: 12px;
+/* projeto */
+.tlink.proj {
   color: var(--accent);
   font-weight: 600;
 }
-.mod summary b {
-  flex: 1;
-  min-width: 0;
-  font-size: 16.5px;
-}
-.mod summary .mc {
-  font-family: var(--mono);
-  font-size: 12px;
-  color: var(--muted);
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
-}
-.mod.ok summary b {
+.chip.proj {
+  border-color: var(--accent);
   color: var(--accent);
 }
-.mod-link {
-  margin: 0;
-  padding: 0 14px 8px;
-  font-size: 15px;
-  color: var(--muted);
+.chip.proj.done {
+  color: var(--ink);
 }
-.aulas {
-  list-style: none;
-  margin: 0;
-  padding: 0 0 6px;
-  border-top: 1px solid var(--line);
+.proj-prog {
+  max-width: 520px;
 }
-.aulas li {
-  display: grid;
-  grid-template-columns: auto auto minmax(0, 1fr) auto;
-  align-items: baseline;
-  gap: 10px;
-  padding: 7px 14px;
-  font-size: 15.5px;
+.chips.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
 }
-.aulas li + li {
-  border-top: 1px solid var(--line);
+.steps .chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
 }
-.aulas input {
-  width: 17px;
-  height: 17px;
-  align-self: center;
-  accent-color: var(--accent);
-}
-.aulas .an,
-.aulas .ad {
-  font-family: var(--mono);
-  font-size: 12px;
-  color: var(--muted);
-  font-variant-numeric: tabular-nums;
-}
-.aulas a {
+.proj-box {
+  display: block;
+  margin: 40px 0 0;
+  padding: 18px 20px;
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  background: var(--accent-soft);
   color: var(--ink);
   text-decoration: none;
 }
-.aulas a:hover {
+.proj-box .k {
+  display: block;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--accent);
-  text-decoration: underline;
 }
-.aulas li.done a {
-  color: var(--muted);
-  text-decoration: line-through;
+.proj-box b {
+  display: block;
+  font-family: var(--display);
+  font-size: 20px;
+  margin: 4px 0 6px;
+}
+.proj-box p {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+.proj-box .go {
+  font-family: var(--display);
+  font-weight: 700;
+  color: var(--accent);
+}
+.passos {
+  list-style: none;
+  counter-reset: passo;
+  padding: 0;
+  margin: 0;
+}
+.passos > li {
+  counter-increment: passo;
+  position: relative;
+  padding: 0 0 8px 44px;
+  margin-bottom: 18px;
+}
+.passos > li::before {
+  content: counter(passo);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--accent);
+  color: var(--panel);
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 15px;
+}
+.passos h4 {
+  font-size: 19px;
+  margin: 3px 0 8px;
+}
+.passos .prose p:first-child {
+  margin-top: 0;
+}
+.passos .code {
+  margin-top: 12px !important;
+}
+.callout.pronto {
+  background: var(--accent-soft);
+}
+.callout.pronto b {
+  color: var(--accent);
 }
 
 /* mapa de fases */
